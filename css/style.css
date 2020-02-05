@@ -39,7 +39,7 @@ h2 {
 
 h3 {
     font-family: 'Roboto', sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     color: black;
     margin-left: 30px;
     margin-right: 30px;
@@ -49,11 +49,12 @@ h3 {
  
 p {
     font-family: 'IBM Plex Mono', monospace;
-    font-size: 10px;
+    font-size: 12px;
     text-align: justify;
     text-decoration: none;
     margin-left: 30px;
     margin-right: 30px;
+    margin-bottom: 10px;
 
 }
 a {
@@ -75,16 +76,26 @@ a {
     color: white;
 }
 
-.benefits {
-    
-}
-
 
 #zen-participation a {
     color: #29422C;
 }
 
 #zen-participation h3 {
-    
+    padding-bottom: 0px;
 }
+
+#zen-participation p {
+    margin-bottom: 0px;
+}
+
+#zen-benefits h3 {
+    padding-bottom: 0px;
+}
+
+#zen-benefits p {
+    padding-bottom: 10px;
+}
+
+
 
