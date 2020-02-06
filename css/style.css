@@ -103,6 +103,10 @@ a {
     padding-bottom: 10px;
 }
 
+#zen-requirements p {
+    padding-bottom: 10px;
+}
+
 
 [role=contentinfo] {
     background-color: #709875;
@@ -209,12 +213,33 @@ h3.resources {
     display: none;
 }
 
-.zen-resources li{
-    float: inline-start;
-    width: 50%;
+.zen-resources ul{
+    float: left;
+    width: 100%;
     list-style-type: none;
     text-align: center;
+    background: url(/img/bamboo.png);
+    background-color: #709875;
+    background-size: 100%;
+    background-blend-mode: multiply;
+    color: white;
+    
 }
+
+.zen-resources li {
+    float: left;
+    width: 50%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.zen-resources a {
+    color: #29422C;
+    font-family: Roboto;
+    font-size: 12px;
+    display: inline-block;
+}
+
 
 
 
@@ -226,7 +251,7 @@ h3.resources {
 
 
 li.next{
-    float:left;
+    float: left;
     width: 50%;
     background-color: #d0e6cc;
     text-align: center;
@@ -255,3 +280,4 @@ li.viewall {
 li.viewall a {
     color: silver;
 }
+
