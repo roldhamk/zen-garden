@@ -9,7 +9,7 @@
 }
 
 header {
-    background: url(/img/huntington.png);
+    background: url(/huntington.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 160px;
@@ -29,7 +29,7 @@ h1 {
 }
 
 h2 {
-    background: url(../img/zen.svg);
+    background: url(/zen.svg);
     background-repeat: no-repeat;
     background-size: contain;
     color: whitesmoke;
@@ -75,7 +75,7 @@ a {
 }
 
 .participation, .benefits {
-    background: url(/img/bamboo.png);
+    background: url(/bamboo.png);
     background-color: #709875;
     background-size: 100%;
     background-blend-mode: multiply;
@@ -218,7 +218,7 @@ h3.resources {
     width: 100%;
     list-style-type: none;
     text-align: center;
-    background: url(/img/bamboo.png);
+    background: url(/bamboo.png);
     background-color: #709875;
     background-size: 100%;
     background-blend-mode: multiply;
